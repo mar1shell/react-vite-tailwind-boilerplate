@@ -1,0 +1,18 @@
+/* Define global styles here and tailwind config */
+
+@import "tailwindcss";
+
+/* Enable tailwind dark mode with dark class */
+
+@custom-variant dark (&:where(.dark, .dark *));
+
+/* Define custom font families */
+
+@theme {
+    --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
+    --font-mono: ui-monospace, monospace;
+}
+
+html {
+    scroll-behavior: smooth;
+}
